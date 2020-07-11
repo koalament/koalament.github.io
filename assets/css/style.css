@@ -453,7 +453,7 @@ section {
 }
 
 .section-bg {
-  background-color: #FBF0CC;
+  background-color: #FAD664;
 }
 
 .section-title {
@@ -1215,4 +1215,66 @@ section {
     text-align: center;
     padding: 5px 0;
   }
+}
+
+.what-is {
+  position: relative;
+  background-color: #FAD664;
+  padding-top: 170px;
+}
+
+.what-is>img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.sender {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 70px;
+  align-items: flex-end;
+}
+
+.pm span {
+  background-color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  padding: 40px 23px;
+  border: 2px dashed #ebb712;
+  color: #323232;
+  display: inline-block;
+}
+
+.sender span {
+  border-radius: 100px 100px 0;
+}
+
+.sender i {
+  font-size: 100px;
+  margin: 0 0 0 20px;
+}
+
+.receiver span {
+  font-size: 30px;
+  padding: 40px 70px;
+  border-radius: 100px 100px 100px 0;
+}
+
+.receiver {
+  display: flex;
+  align-items: flex-end;
+}
+.receiver img {
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+body, div, p, span, button {
+  font-family: 'Roboto', sans-serif;
 }

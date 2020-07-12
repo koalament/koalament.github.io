@@ -1220,7 +1220,8 @@ section {
 .what-is {
   position: relative;
   background-color: #FAD664;
-  padding-top: 170px;
+  padding-top: 120px;
+  display: flex;
 }
 
 .what-is>img {
@@ -1234,35 +1235,38 @@ section {
 .sender {
   display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   align-items: flex-end;
 }
 
-.pm span {
+.pm>span {
   background-color: #fff;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  padding: 40px 23px;
+  font-weight: 600;
+  font-size: 36px;
+  padding: 48px 96px;
   border: 2px dashed #ebb712;
   color: #323232;
   display: inline-block;
 }
 
-.sender span {
+.sender>span {
   border-radius: 100px 100px 0;
 }
 
 .sender i {
   font-size: 100px;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 32px;
+  color: #323232;
 }
 
-.receiver span {
-  font-size: 30px;
-  padding: 40px 70px;
-  border-radius: 100px 100px 100px 0;
+.receiver>span {
+  font-size: 24px;
+    padding: 72px;
+    font-weight: 500;
+    border-radius: 117px 150px 150px 0;
+    width: calc(100% - 132px - 130px);
 }
 
 .receiver {
@@ -1272,10 +1276,30 @@ section {
 .receiver img {
   background-color: #fff;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 32px;
   height: 100px;
 }
 
 body, div, p, span, button {
   font-family: 'Roboto', sans-serif;
+}
+
+.sv {
+  color: #cd9d00;
+}
+
+.light {
+  color: #858482;
+}
+
+#hero {
+  min-height: 95vh;
+}
+
+
+.what-is>.container {
+  flex-grow: 1;
+  margin-right: 40px;
+  margin-left: 40px;
+  max-width: max-content;
 }

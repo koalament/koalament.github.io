@@ -213,7 +213,7 @@ function installExtention () {
     // });
     InstallTrigger.install({
       'koalament': {
-        URL: "https://addons.mozilla.org/firefox/downloads/file/3613713/koalament-1.130.6-fx.xpi?src=dp-btn-primary",
+        URL: "https://addons.mozilla.org/firefox/downloads/file/3639573/koalament-1.138.0-fx.xpi",
       },
     });
     
